@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Local Cinema</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>🎬 Local Cinema</h1>
+  <input id="search" type="search" placeholder="Search films…" autocomplete="off" spellcheck="false">
+  <button id="refresh" title="Re-fetch every cinema site">↻ Refresh</button>
+  <span id="status" class="status"></span>
+</header>
+
+<div class="layout">
+  <aside id="filters" class="sidebar"></aside>
+  <main id="films" class="films">
+    <p class="empty">Loading…</p>
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cinestar-saarbruecken",
+    "name": "CineStar",
+    "url": "https://www.cinestar.de/kino-saarbruecken",
+    "parser": "cinestar",
+    "parserConfig": {
+      "cinemaId": 45,
+      "includeEvents": "sondervorstellung"
+    }
+  },
+  {
+    "id": "camerazwo",
+    "name": "Camera Zwo",
+    "url": "https://www.camerazwo.de/programm",
+    "parser": "camerazwo"
+  },
+  {
+    "id": "achteinhalb",
+    "name": "Kino Achteinhalb",
+    "url": "https://www.kinoachteinhalb.de/programm",
+    "parser": "achteinhalb"
+  },
+  {
+    "id": "filmhaus",
+    "name": "Filmhaus",
+    "url": "https://filmhaus-sb.de/programm",
+    "parser": "filmhaus"
+  }
+]

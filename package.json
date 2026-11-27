@@ -1,0 +1,18 @@
+{
+  "name": "cinema-aggregator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "probe": "node probe.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.45.0"
+  }
+}
